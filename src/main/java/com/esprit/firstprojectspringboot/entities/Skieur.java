@@ -31,4 +31,7 @@ public class Skieur {
     @OneToMany(mappedBy = "skieur")
     private List<Inscription> inscriptionList;
 
+    @OneToOne
+    private Abonnement abonnement;
+
 }

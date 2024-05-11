@@ -1,4 +1,4 @@
-package com.esprit.firstprojectspringboot.enums;
+package com.esprit.firstprojectspringboot.entities.enums;
 
 public enum TypeCours {
 

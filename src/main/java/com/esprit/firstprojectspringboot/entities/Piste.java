@@ -1,11 +1,10 @@
 package com.esprit.firstprojectspringboot.entities;
 
 
-import com.esprit.firstprojectspringboot.enums.Couleur;
+import com.esprit.firstprojectspringboot.entities.enums.Couleur;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -21,6 +20,6 @@ public class Piste {
     private Integer longeur;
     private Integer pente;
 
-    @ManyToMany(mappedBy = "pistes")
+    @ManyToMany(mappedBy = "pisteList")
     private List<Skieur> skieurList;
 }

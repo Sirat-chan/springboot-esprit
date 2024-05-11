@@ -1,7 +1,7 @@
 package com.esprit.firstprojectspringboot.entities;
 
 
-import com.esprit.firstprojectspringboot.enums.TypeAbonnement;
+import com.esprit.firstprojectspringboot.entities.enums.TypeAbonnement;
 import jakarta.persistence.*;
 import lombok.Data;
 
